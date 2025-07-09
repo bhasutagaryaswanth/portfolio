@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Yaswanth | Aspiring Data Scientist</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.2/dist/tailwind.min.css" rel="stylesheet">
+  <link href="assets/css/styles.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans leading-normal">
+  <!-- Navbar -->
+  <nav class="fixed w-full bg-white shadow z-50">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <div class="text-xl font-semibold">Yaswanth</div>
+      <div>
+        <a href="#home" class="px-4 hover:text-blue-600">Home</a>
+        <a href="#about" class="px-4 hover:text-blue-600">About</a>
+        <a href="#skills" class="px-4 hover:text-blue-600">Skills</a>
+        <a href="#projects" class="px-4 hover:text-blue-600">Projects</a>
+        <a href="#contact" class="px-4 hover:text-blue-600">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home -->
+  <section id="home" class="pt-24 flex items-center min-h-screen">
+    <div class="container mx-auto px-4 text-center">
+      <img src="https://via.placeholder.com/150" alt="Profile" class="mx-auto rounded-full shadow-lg mb-6">
+      <h1 class="text-4xl md:text-5xl font-bold mb-2">Yaswanth</h1>
+      <p class="text-xl text-gray-600 mb-4">Aspiring Data Scientist</p>
+      <p class="text-gray-700 italic">Turning Data into Decisions</p>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-16 bg-white">
+    <div class="container mx-auto px-4 max-w-3xl text-center">
+      <h2 class="text-3xl font-bold mb-6">About Me</h2>
+      <p class="text-gray-700">
+        I'm currently pursuing a B.Sc. in Computer Science with a passion for Machine Learning, Generative AI, and Data Analytics.
+        I love uncovering insights hidden in data, building intelligent solutions, and continuously expanding my skills to make meaningful
+        real-world impact.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="py-16">
+    <div class="container mx-auto px-4 max-w-4xl">
+      <h2 class="text-3xl font-bold text-center mb-10">Skills</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white rounded-lg shadow-md p-6">
+          <h3 class="font-semibold text-xl mb-4">Programming Languages</h3>
+          <ul class="list-disc pl-5 space-y-1">
+            <li>Python</li>
+            <li>Java</li>
+            <li>C</li>
+          </ul>
+        </div>
+        <div class="bg-white rounded-lg shadow-md p-6">
+          <h3 class="font-semibold text-xl mb-4">Libraries & Frameworks</h3>
+          <ul class="list-disc pl-5 space-y-1">
+            <li>NumPy</li>
+            <li>Pandas</li>
+            <li>Matplotlib</li>
+            <li>Scikit-learn</li>
+          </ul>
+        </div>
+        <div class="bg-white rounded-lg shadow-md p-6">
+          <h3 class="font-semibold text-xl mb-4">Tools & Soft Skills</h3>
+          <ul class="list-disc pl-5 space-y-1">
+            <li>Jupyter</li>
+            <li>Git</li>
+            <li>MySQL</li>
+            <li>MongoDB</li>
+            <li>Communication, Teamwork, Problem-solving</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-16 bg-white">
+    <div class="container mx-auto px-4 max-w-5xl">
+      <h2 class="text-3xl font-bold text-center mb-10">Projects</h2>
+      <div class="space-y-8">
+        <!-- Example Project Card -->
+        <div class="bg-white rounded-lg shadow-md p-6 flex flex-col md:flex-row">
+          <div class="md:w-1/3 text-center mb-4 md:mb-0">
+            <img src="https://via.placeholder.com/300x200" alt="Project Image" class="rounded shadow-sm">
+          </div>
+          <div class="md:w-2/3 md:pl-6">
+            <h3 class="font-semibold text-2xl mb-2">Project Title #1</h3>
+            <p class="mb-2">A brief description of the project, what problem it solves, the approach and results.</p>
+            <p class="text-sm italic mb-2"><strong>Tools:</strong> Python, Pandas, Scikit‑learn</p>
+            <a href="https://github.com/username/project1" class="text-blue-600 hover:underline">GitHub Repo</a>
+            <!-- Optional: <a href="https://demo-link.com" class="ml-4 text-blue-600 hover:underline">Live Demo</a> -->
+          </div>
+        </div>
+        <!-- Duplicate and fill in up to 3-5 cards -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume -->
+  <section id="resume" class="py-16">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold mb-6">Resume</h2>
+      <a href="resume/Yaswanth_Resume.pdf" download class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded shadow">
+        Download My Resume
+      </a>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-16 bg-white">
+    <div class="container mx-auto px-4 max-w-md">
+      <h2 class="text-3xl font-bold text-center mb-6">Get In Touch</h2>
+      <form id="contact-form" class="space-y-4">
+        <input type="text" name="name" id="name" placeholder="Your Name*" required
+               class="w-full p-3 border rounded shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
+        <input type="email" name="email" id="email" placeholder="Your Email*" required
+               class="w-full p-3 border rounded shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
+        <textarea name="message" id="message" rows="5" placeholder="Your Message*" required
+                  class="w-full p-3 border rounded shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+        <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 rounded shadow">
+          Send Message
+        </button>
+      </form>
+      <div class="mt-8 text-center space-x-4">
+        <a href="https://linkedin.com/in/YOUR_LINK" target="_blank" class="text-blue-600 hover:underline">LinkedIn</a>
+        <a href="https://github.com/YOUR_GITHUB" target="_blank" class="text-gray-800 hover:underline">GitHub</a>
+        <a href="mailto:youremail@example.com" class="text-gray-800 hover:underline">Email</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-6 bg-gray-100 text-center text-gray-600">
+    © 2025 Yaswanth. All rights reserved.
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
