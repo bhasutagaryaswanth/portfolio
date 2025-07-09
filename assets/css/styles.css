@@ -1,7 +1,41 @@
-/* Smooth scroll & scroll padding to compensate for fixed navbar */
+/* Smooth scrolling */
 html {
   scroll-behavior: smooth;
 }
+
+/* Ensure scroll offset for fixed navbar */
 body {
   scroll-padding-top: 80px;
+}
+
+/* Customize scrollbar (optional) */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Button hover effect override */
+button:hover {
+  transition: background-color 0.3s ease;
+}
+
+/* Placeholder image styling */
+img[alt="Profile"], img[alt^="Project"] {
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.02);
 }
